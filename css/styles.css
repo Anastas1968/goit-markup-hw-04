@@ -2,7 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  font-size: ;
+  width: 1440px;
+  height: 3300px;
+  top: -1169px;
+  left: 370px;
+  gap: 0px;
+  opacity: 0px;
 }
 header {
   color: #434455;
@@ -208,7 +213,8 @@ img {
 .li-four-item {
 }
 .img-four {
-  width: calc((100% - 72px) / 3);
+  display: block;
+  width: calc((100% - 1px) / 1);
 }
 .container-four {
   padding: 32px 16px;

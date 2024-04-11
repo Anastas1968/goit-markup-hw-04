@@ -17,6 +17,18 @@ header {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -38,6 +50,8 @@ img {
 /*-----------------HEADER-----------------------*/
 .container-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -62,6 +76,7 @@ img {
 .link {
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .link:hover {
   color: #404bbf;
@@ -72,9 +87,9 @@ img {
 .nav-header-item {
   display: flex;
   gap: 40px;
-  margin: 40px;
 }
 .li-header-item {
+  padding: 24px;
 }
 .address {
   font-style: normal;
@@ -91,7 +106,6 @@ img {
 .address-header-item {
   display: flex;
   gap: 40px;
-  margin: 40px;
 }
 .li-address-item {
 }
@@ -211,17 +225,15 @@ img {
   margin: 0;
 }
 .li-four-item {
+  width: calc((100% - 72px) / 3);
 }
 .img-four {
   display: block;
-  width: calc((100% - 1px) / 1);
 }
 .container-four {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
-  border-radius: 0px 0px 4px 4px;
 }
 .card {
   background-color: #ffffff;

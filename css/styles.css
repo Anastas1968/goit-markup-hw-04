@@ -207,42 +207,32 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.two-item {
+.section-adv {
+  padding: 120px 0;
+}
+.advantages {
+  margin-bottom: 8px;
+}
+.ul-advantages {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 24px;
 }
-.sec-two-card {
-  width: calc((100% - 72px) / 4);
+.li-adv-list {
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 0;
+  margin: 0;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.sec-two-card-icon {
-  padding: 24px 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-}
-.sec-two-list-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-.sec-two-list-text {
-  text-align: left;
+
+.advantages-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
 }
-.sex-three {
+
+.sec-three {
   background-color: #f4f4fd;
 }
 .sec-tree-title {

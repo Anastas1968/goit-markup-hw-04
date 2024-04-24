@@ -421,7 +421,6 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-right: 120px;
 }
 .footer-logo-text {
   color: #f4f4fd;
@@ -453,7 +452,6 @@ input {
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
-  margin-right: 80px;
 }
 .soc-med .soc-net-icon-bg:hover,
 .soc-med .soc-net-icon-bg:focus {
